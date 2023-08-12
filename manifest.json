@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "SecureSurf",
+  "version": "0.1",
+  "description": "IA Phising",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "main.js"
+  },
+  "permissions": ["scripting", "activeTab", "tabs"]
+}
