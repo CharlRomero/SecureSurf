@@ -1,0 +1,15 @@
+{
+  "name": "securesurf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "popup.js",
+  "scripts": {
+    "dev": "node popup.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.10.0"
+  }
+}
