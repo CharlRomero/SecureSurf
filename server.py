@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from flask_cors import CORS
+#from flask_cors import CORS
 from joblib import dump, load
 
 from urllib.parse import urlparse
@@ -180,7 +180,7 @@ with open(f'model/model_phishing_webpage_classifer', 'rb') as file:
     model = load(file)
 
 app = Flask(__name__)
-CORS(app)
+#CORS(app)
 
 @app.route('/predict', methods=['POST'])
 def getPredict():
